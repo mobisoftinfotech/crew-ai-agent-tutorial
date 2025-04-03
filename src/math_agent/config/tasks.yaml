@@ -1,0 +1,13 @@
+math_task:
+  description: >
+    Solve the math problem {problem}
+    Make sure to use the math_tool to solve the problem
+    Before passing the problem to the math_tool, make sure to convert the problem in normal english to a pure mathematical expression.
+    For example:
+    "What is the sum of 2 and 2?" should be converted to "2 + 2"
+    "What is the product of 2 and 2?" should be converted to "2 * 2"
+    "What is the difference between 4 and 2?" should be converted to "4 - 2"
+    "What is the quotient of 4 and 2?" should be converted to "4 / 2"
+  expected_output: >
+    The solution to the problem {problem}
+  agent: math_expert
